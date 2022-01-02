@@ -2,8 +2,75 @@ local library = {
 		flags = { },
 		items = { }
 	}
-    if _G.Color == nil then _G.Color = Color3.fromRGB(255, 255, 255) end
-    if _G.Color2 == nil then _G.Color2 = Color3.fromRGB(255, 255, 255) end
+    if _G.Color == nil then 
+	_G.Color = Color3.fromRGB(255, 255, 255) 
+    elseif _G.RainbowUI then
+	for i = 0,255,10 do
+                wait()
+                _G.Color = Color3.fromRGB(255/255,i/255,0/255)
+                _G.Color2 = Color3.fromRGB(255/255,i/255,0/255)
+            end
+            for i = 255,0,-10 do
+                wait()
+                _G.Color = Color3.fromRGB(255/255,i/255,0/255)
+                _G.Color2 = Color3.fromRGB(255/255,i/255,0/255)
+            end
+            for i = 0,255,10 do
+                wait()
+                _G.Color = Color3.fromRGB(255/255,i/255,0/255)
+                _G.Color2 = Color3.fromRGB(255/255,i/255,0/255)
+            end
+            for i = 255,0,-10 do
+                wait()
+                _G.Color = Color3.fromRGB(255/255,i/255,0/255)
+                _G.Color2 = Color3.fromRGB(255/255,i/255,0/255)
+            end
+            for i = 0,255,10 do
+                wait()
+                _G.Color = Color3.fromRGB(255/255,i/255,0/255)
+                _G.Color2 = Color3.fromRGB(255/255,i/255,0/255)
+            end
+            for i = 255,0,-10 do
+                wait()
+                _G.Color = Color3.fromRGB(255/255,i/255,0/255)
+                _G.Color2 = Color3.fromRGB(255/255,i/255,0/255)
+            end
+    end
+    end
+    if _G.Color2 == nil then 
+	_G.Color2 = Color3.fromRGB(255, 255, 255) 
+    elseif _G.RainbowUI then
+	for i = 0,255,10 do
+                wait()
+                _G.Color = Color3.fromRGB(255/255,i/255,0/255)
+                _G.Color2 = Color3.fromRGB(255/255,i/255,0/255)
+            end
+            for i = 255,0,-10 do
+                wait()
+                _G.Color = Color3.fromRGB(255/255,i/255,0/255)
+                _G.Color2 = Color3.fromRGB(255/255,i/255,0/255)
+            end
+            for i = 0,255,10 do
+                wait()
+                _G.Color = Color3.fromRGB(255/255,i/255,0/255)
+                _G.Color2 = Color3.fromRGB(255/255,i/255,0/255)
+            end
+            for i = 255,0,-10 do
+                wait()
+                _G.Color = Color3.fromRGB(255/255,i/255,0/255)
+                _G.Color2 = Color3.fromRGB(255/255,i/255,0/255)
+            end
+            for i = 0,255,10 do
+                wait()
+                _G.Color = Color3.fromRGB(255/255,i/255,0/255)
+                _G.Color2 = Color3.fromRGB(255/255,i/255,0/255)
+            end
+            for i = 255,0,-10 do
+                wait()
+                _G.Color = Color3.fromRGB(255/255,i/255,0/255)
+                _G.Color2 = Color3.fromRGB(255/255,i/255,0/255)
+            end
+    end
     -- Services
 	local players = game:GetService("Players")
 	local uis = game:GetService("UserInputService")
